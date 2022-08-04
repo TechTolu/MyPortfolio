@@ -7,9 +7,10 @@ import Portfolio from './components/portfolio/Portfolio.js'
 import Contact from './components/contact/Contact.js'
 import Footer from './components/footer/Footer.js'
 
+
 const App = () => {
   return (
-    <>
+    <div>
         <Header/>
         <Nav/>
         <About/>
@@ -18,7 +19,7 @@ const App = () => {
         <Portfolio/>
         <Contact/>
         <Footer/>
-    </>
+    </div>
   )
 }
 
