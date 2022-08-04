@@ -3,9 +3,6 @@ import './Portfolio.css'
 import IMG1 from '../../assets/portfolio1.webp'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
 
 
   const data = [
@@ -29,28 +26,7 @@ import IMG6 from '../../assets/portfolio6.png'
       title: 'Figma dashboard UI kit for data design web apps',
       github: 'https://github.com',
       demo: 'https://dribbble.com/shots/18542859-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-    },
-    // {
-      // id: 4,
-      // image: IMG4,
-      // title: 'Figma dashboard UI kit for data design web apps',
-      // github: 'https://github.com',
-      // demo: 'https://dribbble.com/shots/18254797-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-    // },
-    // {
-      // id: 5,
-      // image: IMG5,
-      // title: 'Figma dashboard UI kit for data design web apps',
-      // github: 'https://github.com',
-      // demo: 'https://dribbble.com/shots/18418524-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-    // },
-    // {
-      // id: 6,
-      // image: IMG6,
-      // title: 'Charts templates & infographics in Figma',
-      // github: 'https://github.com',
-      // demo: 'https://dribbble.com/shots/18672157-Orion-UI-kit-Charts-templates-infographics-in-Figma '
-    // }
+    }
   ]
 
 const Portfolio = () => {
